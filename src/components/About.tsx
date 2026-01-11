@@ -18,26 +18,27 @@ const About = () => {
           {/* Summary card */}
           <div className="bg-card border border-border rounded-xl p-8 glow-border card-hover">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Senior Azure Data Engineer / Data Lead with <span className="text-primary font-semibold">9+ years</span> of 
-              hands-on experience designing, leading, and optimizing enterprise-scale Azure data platforms using 
-              <span className="text-foreground font-medium"> Azure Data Factory, Azure Synapse, ADLS Gen2, Azure Databricks, </span> 
-              and <span className="text-foreground font-medium">PySpark</span>.
+              Senior Data Engineer with <span className="text-primary font-semibold">9+ years</span> of 
+              experience designing, modernizing, and operating large-scale batch and stream data processing pipelines 
+              across cloud-native environments. Strong expertise in 
+              <span className="text-foreground font-medium"> Python, SQL, Apache Spark, </span> 
+              and <span className="text-foreground font-medium">cloud platforms (AWS, Azure, GCP)</span>.
             </p>
             
             <div className="my-6 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
             
             <p className="text-muted-foreground leading-relaxed">
-              Proven expertise in building high-performance ETL/ELT pipelines using Python, SQL, and Spark, 
-              supporting analytics, reporting, and regulatory workloads. Strong background in data modeling, 
-              performance tuning, and cost optimization across cloud-native architectures.
+              Proven experience with AWS S3, EC2, Lambda, and GCP services, delivering scalable and cost-efficient 
+              data solutions. Deep knowledge of data modeling, normalization techniques, and performance optimization 
+              to ensure reliable, governed, and high-throughput data platforms.
             </p>
             
             <div className="my-6 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
             
             <p className="text-muted-foreground leading-relaxed">
-              Demonstrated success enforcing data quality, data governance, and security standards using 
-              Azure Purview, RBAC, and enterprise controls. Experienced in CI/CD enablement using Azure DevOps, 
-              Git-based workflows, and automated testing frameworks.
+              Hands-on exposure to Airflow, Kafka, CI/CD pipelines, and unit testing for data workflows. 
+              Recognized for establishing technical standards, improving pipeline reliability, and delivering 
+              enterprise-grade data platforms aligned with business and compliance requirements.
             </p>
 
             {/* Key highlights */}
