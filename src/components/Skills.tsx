@@ -23,32 +23,32 @@ const skillCategories = [
   {
     icon: Cloud,
     title: "Cloud Platforms",
-    skills: ["AWS (S3, EMR, Glue, Redshift)", "Azure (ADLS Gen2, Databricks, Synapse, ADF)", "GCP (BigQuery, Pub/Sub)"],
+    skills: ["AWS (S3, EMR, Glue, Redshift, Lake Formation)", "Azure (ADLS Gen2, Databricks, Synapse, ADF, Purview)", "GCP (BigQuery, Pub/Sub)"],
   },
   {
     icon: Workflow,
-    title: "ETL / ELT Tools",
-    skills: ["dbt", "AWS Glue", "Informatica PowerCenter", "SSIS", "Azure Data Factory", "Delta Live Tables"],
+    title: "ETL / ELT & Streaming",
+    skills: ["dbt", "AWS Glue", "Azure Data Factory", "Delta Live Tables", "Apache Kafka", "AWS Kinesis", "Structured Streaming"],
   },
   {
     icon: Database,
     title: "Data Warehousing & Databases",
-    skills: ["Snowflake", "Redshift", "Azure Synapse", "BigQuery", "SQL Server", "Oracle", "PostgreSQL", "MongoDB"],
+    skills: ["Snowflake", "Redshift", "Azure Synapse", "BigQuery", "SQL Server", "Oracle", "PostgreSQL", "MongoDB", "Cassandra"],
   },
   {
     icon: Terminal,
     title: "Orchestration & DevOps",
-    skills: ["Apache Airflow", "Jenkins", "GitHub Actions", "Azure DevOps", "Terraform", "CloudFormation"],
+    skills: ["Apache Airflow (1.x–2.x)", "AWS Step Functions", "Jenkins", "GitHub Actions", "Azure DevOps", "Terraform", "CloudFormation"],
   },
   {
     icon: Shield,
     title: "Data Governance & Security",
-    skills: ["Purview", "Unity Catalog", "Glue Catalog", "IAM", "RBAC/ABAC", "KMS", "Key Vault"],
+    skills: ["Purview", "Unity Catalog", "Glue Catalog", "IAM", "RBAC/ABAC", "KMS", "Key Vault", "Data Masking"],
   },
   {
     icon: BarChart3,
-    title: "BI & Visualization",
-    skills: ["Power BI", "Tableau", "Looker", "Data Studio"],
+    title: "Monitoring & BI",
+    skills: ["CloudWatch", "Azure Monitor", "Grafana", "Prometheus", "Datadog", "Power BI", "Tableau", "Looker"],
   },
 ];
 
